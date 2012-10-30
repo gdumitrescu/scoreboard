@@ -6,21 +6,30 @@ A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](htt
 
 Install Meteor:
 
-  curl install.meteor.com | /bin/sh
+```bash
+  $curl install.meteor.com | /bin/sh
+```
 
 Clone the repository:
 
-  git clone git@git:sandbox/scoreboard.git
+```bash
+  $git clone git@git:sandbox/scoreboard.git
+```
 
-Add jQuery as a add-on packages
+Add jQuery as a add-on packages:
 
-  meteor add jquery
+```bash
+  $meteor add jquery
+```
 
-Run guard command to watch for file changes
-  
-  guard -g ui
-  
+Run guard command to watch for file changes:
+
+```bash
+  $[bundle exec] guard -g ui
+```
 
 To start the project in the built-in Meteor server:
-  
-  meteor run
+
+```bash
+  $meteor [run]
+```
