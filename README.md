@@ -7,29 +7,29 @@ A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](htt
 Install Meteor:
 
 ```bash
-  $curl install.meteor.com | /bin/sh
+  $ curl install.meteor.com | /bin/sh
 ```
 
 Clone the repository:
 
 ```bash
-  $git clone git@git:sandbox/scoreboard.git
+  $ git clone git@git:sandbox/scoreboard.git
 ```
 
 Add jQuery as a add-on packages:
 
 ```bash
-  $meteor add jquery
+  $ meteor add jquery
 ```
 
 Run guard command to watch for file changes:
 
 ```bash
-  $[bundle exec] guard -g ui
+  $ [bundle exec] guard -g ui
 ```
 
 To start the project in the built-in Meteor server:
 
 ```bash
-  $meteor [run]
+  $ meteor [run]
 ```
