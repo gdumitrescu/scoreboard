@@ -8,3 +8,5 @@ jquery
 accounts-password
 accounts-ui
 accounts-github
+bootstrap
+coffeescript
