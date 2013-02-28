@@ -13,7 +13,7 @@ Install Meteor:
 Clone the repository:
 
 ```bash
-  $ git clone git@git:sandbox/scoreboard.git
+  $ git clone git@git:gdumitrescu/scoreboard.git
 ```
 
 Add jQuery as a add-on packages:

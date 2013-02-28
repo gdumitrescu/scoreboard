@@ -1,6 +1,6 @@
-require 'compass'
 require 'sass'
-require 'sassy-buttons'
+require 'compass'
+
 # Require any additional compass plugins here.
 
 # Get the directory that this configuration file exists in
@@ -14,13 +14,13 @@ sass_dir = "source/sass"
 sass_path = sass_dir
 
 css_dir = "css"
-css_path  = File.join(dir_src, "../client", "css")
+css_path  = File.join(dir_src, "../public", "css")
 
 images_dir = "img"
 images_path  = File.join(dir_src, "../public", "img")
 
 javascripts_dir = "js"
-javascripts_path  = File.join(dir_src, "../client", "js")
+javascripts_path  = File.join(dir_src, "../public", "js")
 
 #Environment
 #environment = :development

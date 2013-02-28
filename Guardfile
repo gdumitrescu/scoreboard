@@ -6,33 +6,17 @@
 
 group :ui do
 
-  guard :bundler, 
-    :hide_success => true do
-    watch('Gemfile')
-  end
-  
-  guard 'coffeescript', 
-    :output => '/',
-    #:bare => %w{ scoreboard.coffee }, 
-    :hide_success => true do
-    watch('source/coffee/(.*)\.coffee')
-  end
+#  guard :bundler, 
+#    :hide_success => true do
+#    watch('Gemfile')
+#  end
   
   guard 'compass',
-    :output => 'client/css',
+    :output => 'public/css',
     :workdir => 'source/sass',
     :configuration_file => 'config/compass.rb',
     :hide_success => true do
     watch('source/sass/(.*)\.sass')
   end
-  
-  # guard 'livereload', 
-    # :apply_js_live => true, 
-    # :apply_css_live => true,
-    # :apply_htm_live => true do
-    # watch('app/js/.+\.js$')
-    # watch('app/css/.+\.css$')
-    # watch('app/htm/.+\.htm$')
-  # end
 
 end

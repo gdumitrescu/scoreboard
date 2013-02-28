@@ -1,6 +1,5 @@
 Players = new Meteor.Collection 'players'
 
-
 reset_data = -> # Executes on both client and server.
   Players.remove {}
   names = [ 'Team1'
