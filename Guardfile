@@ -6,17 +6,17 @@
 
 group :ui do
 
-#  guard :bundler, 
-#    :hide_success => true do
-#    watch('Gemfile')
-#  end
+  guard :bundler, 
+    :hide_success => true do
+    watch('Gemfile')
+  end
   
   guard 'compass',
-    :output => 'public/css',
-    :workdir => 'source/sass',
+    :output => 'client/css',
+    :workdir => 'client/sass',
     :configuration_file => 'config/compass.rb',
     :hide_success => true do
-    watch('source/sass/(.*)\.sass')
+    watch('client/sass/(.*)\.sass')
   end
 
 end

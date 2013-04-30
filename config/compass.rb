@@ -10,17 +10,17 @@ dir_src = File.dirname(__FILE__)
 http_path = "/"
 project_path = File.join(dir_src, "../", "")
 
-sass_dir = "source/sass"
+sass_dir = "client/sass"
 sass_path = sass_dir
 
 css_dir = "css"
-css_path  = File.join(dir_src, "../public", "css")
+css_path  = File.join(dir_src, "../client", "css")
 
 images_dir = "img"
-images_path  = File.join(dir_src, "../public", "img")
+images_path  = File.join(dir_src, "../../public", "img")
 
 javascripts_dir = "js"
-javascripts_path  = File.join(dir_src, "../public", "js")
+javascripts_path  = File.join(dir_src, "../client", "js")
 
 #Environment
 #environment = :development
