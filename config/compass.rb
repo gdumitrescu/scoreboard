@@ -41,6 +41,11 @@ on_stylesheet_saved do |filename|
   end
 end
 
+# disable asset cache buster for replace-text-with-dimensions mixin
+asset_cache_buster do |http_path, real_path|
+  nil
+end
+
 #Environment
 #environment = :development
 
