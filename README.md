@@ -2,7 +2,7 @@
 
 A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](http://meteor.com/examples/leaderboard) rewritten using [CoffeeScript](http://coffeescript.org/), [Compass](http://compass-style.org/) and Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Guard](https://github.com/guard/guard) gems.
 
-### Installation
+### Development
 
 Install Meteor:
 
@@ -16,7 +16,7 @@ Clone the repository:
   $ git clone git@git:gdumitrescu/scoreboard.git
 ```
 
-Add jQuery as a add-on packages:
+Add an add-on packages (i.e jQuery):
 
 ```bash
   $ meteor add jquery
@@ -32,4 +32,47 @@ To start the project in the built-in Meteor server:
 
 ```bash
   $ meteor [run]
+```
+
+
+### Deploy on Nitrous.IO and MongoLab
+
+- Login to Nitrous.IO box and clone the repository
+
+- Install meteorite on Nitrous.IO (Note: version 0.6 or lower)
+
+```bash
+$ npm install -g meteorite@0.6.0
+```
+
+- Add MongoLab account entries into ~/.bash_profile 
+
+``` bash
+export MONGODB_DEV_HOST=<hostname>.mongolab.com
+export MONGODB_DEV_PORT=<port>
+export MONGODB_DEV_USR=<username>
+export MONGODB_DEV_PWD=<password>
+export MONGODB_DEV_DB=<database>
+
+export MONGODB_DEV_URI=mongodb://${MONGODB_DEV_USR}:${MONGODB_DEV_PWD}@${MONGODB_DEV_HOST}:${MONGODB_DEV_PORT}/${MONGODB_DEV_DB}
+export MONGO_URL=${MONGODB_DEV_URI}
+```
+
+and reload .bash_profile and run meteorite
+
+
+### Deploy on Heroku and MongoLab
+
+- Clone the repository and change into that directory
+
+- Run the following commands using Heroku Toolbelt
+
+```bash
+$ heroku create <herokuappname> --stack cedar --buildpack https://github.com/ondrej-kvasnovsky/heroku-buildpack-meteor.git
+
+$ heroku config:set MONGO_URL=mongodb://<username>:<password>@<hostname>.mongolab.com:<port>/<database>
+
+$ heroku config:set ROOT_URL=<herokuappname>.herokuapp.com
+
+$ git push heroku master
 ```
