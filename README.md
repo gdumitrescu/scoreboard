@@ -1,4 +1,4 @@
-## Meteor Scoreboard example with CoffeeScript, Compass, Bootstrap and Guard gems
+## Meteor Scoreboard example with CoffeeScript, Compass, Bootstrap and Guard gems [![endorse](http://api.coderwall.com/gdumitrescu/endorsecount.png)](http://coderwall.com/gdumitrescu)
 
 A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](http://meteor.com/examples/leaderboard) rewritten using [CoffeeScript](http://coffeescript.org/), [Compass](http://compass-style.org/) and Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Guard](https://github.com/guard/guard) gems.
 
