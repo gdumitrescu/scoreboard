@@ -1,7 +1,7 @@
 ## Meteor Scoreboard example with CoffeeScript, Compass, Bootstrap and Guard gems 
 
 [![Build Status](https://secure.travis-ci.org/gdumitrescu/scoreboard.png?branch=master)](http://travis-ci.org/gdumitrescu/scoreboard)
-
+[![Coverage Status](https://coveralls.io/repos/gdumitrescu/scoreboard/badge.png?branch=master)](https://coveralls.io/r/gdumitrescu/scoreboard?branch=master)
 
 A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](http://meteor.com/examples/leaderboard) rewritten using [CoffeeScript](http://coffeescript.org/), [Compass](http://compass-style.org/) and Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Guard](https://github.com/guard/guard) gems.
 

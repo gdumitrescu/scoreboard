@@ -1,0 +1,5 @@
+{
+  "coveralls": "2.1.0",
+  "graceful-fs": "2.0.0",
+  "laika": "0.2.14"
+}
