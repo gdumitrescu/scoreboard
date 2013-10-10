@@ -82,3 +82,7 @@ $ git push heroku master
 ```
 
 [![endorse](http://api.coderwall.com/gdumitrescu/endorsecount.png)](http://coderwall.com/gdumitrescu)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gdumitrescu/scoreboard/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
