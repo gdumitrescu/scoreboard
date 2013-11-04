@@ -43,6 +43,12 @@ To start the project in the built-in Meteor server:
 
 - Login to Nitrous.IO box and clone the repository
 
+- Install Meteor using Nitours.IO [autoparts](https://github.com/action-io/autoparts) feature 
+
+```bash
+$ parts install meteor
+```
+
 - Install meteorite on Nitrous.IO (Note: version 0.6 or lower)
 
 ```bash
