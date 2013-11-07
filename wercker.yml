@@ -1,4 +1,4 @@
-box: wercker/ruby
+box: mies/meteor@0.3.1
 # Build definition
 # See the Rails section on the wercker devcenter:
 # http://devcenter.wercker.com/articles/languages/ruby/rails-heroku.html
