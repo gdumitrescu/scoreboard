@@ -15,9 +15,10 @@ build:
         - script:
             # Install meteorite
             sudo npm install -g meteorite
+        - script:
             # Install laika
             sudo npm install -g laika
-        - script
+        - script:
             laika
 env:
   NODE_VERSION: "0.10.11"
