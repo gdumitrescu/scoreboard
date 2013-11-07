@@ -4,6 +4,8 @@
 [![Build Status](https://secure.travis-ci.org/gdumitrescu/scoreboard.png?branch=master)](http://travis-ci.org/gdumitrescu/scoreboard)
 [![Coverage Status](https://coveralls.io/repos/gdumitrescu/scoreboard/badge.png?branch=master)](https://coveralls.io/r/gdumitrescu/scoreboard?branch=master)
 
+[![wercker status](https://app.wercker.com/status/136bc2d730466ac09525a3ddb2e65ed0/m "wercker status")](https://app.wercker.com/project/bykey/136bc2d730466ac09525a3ddb2e65ed0)
+
 A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](http://meteor.com/examples/leaderboard) rewritten using [CoffeeScript](http://coffeescript.org/), [Compass](http://compass-style.org/) and Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Guard](https://github.com/guard/guard) gems.
 
 ### Development
