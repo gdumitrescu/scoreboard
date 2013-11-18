@@ -8,15 +8,15 @@ group :ui do
 
   guard :bundler, 
     :hide_success => true do
-    watch('Gemfile')
+    watch("Gemfile")
   end
   
-  guard 'compass',
-    :output => 'client/css',
-    :workdir => 'client/sass',
-    :configuration_file => 'config/compass.rb',
+  guard "compass",
+    :output => "client/css",
+    :workdir => "source/sass",
+    :configuration_file => "config/compass.rb",
     :hide_success => true do
-    watch('client/sass/(.*)\.sass')
+    watch("source/sass/(.*)\.sass")
   end
 
 end

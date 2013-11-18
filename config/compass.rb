@@ -1,4 +1,5 @@
-require 'compass'
+require "compass"
+require "compass-placeholders"
 
 # Require any additional compass plugins here.
 
@@ -9,7 +10,7 @@ dir_src = File.dirname(__FILE__)
 http_path = "/"
 project_path = File.join(dir_src, "../", "")
 
-sass_dir = "client/sass"
+sass_dir = "source/sass"
 sass_path = sass_dir
 
 css_dir = "css"
