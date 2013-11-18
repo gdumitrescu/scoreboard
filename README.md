@@ -22,10 +22,10 @@ Clone the repository:
   $ git clone git@git:gdumitrescu/scoreboard.git
 ```
 
-Add an add-on packages (i.e jQuery):
+Run bundler command:
 
 ```bash
-  $ meteor add jquery
+  $ bundle install 
 ```
 
 Run guard command to watch for file changes:
