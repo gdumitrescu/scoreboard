@@ -54,7 +54,7 @@ $ parts install meteor
 - Install meteorite on Nitrous.IO (Note: version 0.6 or lower)
 
 ```bash
-$ npm install -g meteorite@0.6.0
+$ npm install -g meteorite
 ```
 
 - Add MongoLab account entries into ~/.bash_profile 
