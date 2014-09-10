@@ -1,4 +1,5 @@
 ## Meteor Scoreboard example with CoffeeScript, Compass, Bootstrap and Guard gems 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/gdumitrescu/scoreboard?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [![Codeship Status for gdumitrescu/scoreboard](https://www.codeship.io/projects/617dc4f0-d47a-0130-04fb-367a6d09b6f8/status?branch=master)](https://www.codeship.io/projects/5188)
 [![Build Status](https://secure.travis-ci.org/gdumitrescu/scoreboard.png?branch=master)](http://travis-ci.org/gdumitrescu/scoreboard)
