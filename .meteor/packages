@@ -12,4 +12,5 @@ bootstrap
 coffeescript
 spacebars
 standard-app-packages
+meteorhacks:kadira
 
