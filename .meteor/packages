@@ -10,8 +10,8 @@ accounts-ui
 accounts-github
 bootstrap
 coffeescript
-standard-app-packages
 meteorhacks:kadira
 accounts-meteor-developer
 spacebars
+standard-app-packages
 
