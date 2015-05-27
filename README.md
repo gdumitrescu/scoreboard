@@ -83,7 +83,7 @@ and reload .bash_profile and run meteorite
 - Run the following commands using Heroku Toolbelt
 
 ```bash
-$ heroku create <herokuappname> --stack cedar --buildpack https://github.com/gdumitrescu/heroku-buildpack-meteor.git
+$ heroku create <herokuappname> --stack cedar --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
 
 $ heroku config:set MONGO_URL=mongodb://<username>:<password>@<hostname>.mongolab.com:<port>/<database>
 
