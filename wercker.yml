@@ -1,4 +1,4 @@
-box: mies/meteor@0.3.1
+box: oskarszoon/meteor-ci@1.2.1
 services:
   - wercker/mongodb
 packages:
