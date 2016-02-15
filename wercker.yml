@@ -4,20 +4,14 @@ services:
 packages:
   - meteor@0.6.4
 
-# Build definition
-# See more about services on our devcenter:
-# http://devcenter.wercker.com/articles/services/
 build:
-  # The steps that will be executed on build
   steps:
     - script:
-      name: provision
-      code: |-
-        sudo npm install -g meteorite laika
+        name: setup
+        code: npm install -g meteorite laika
     - script:
-      name: test
-      code: |-        
-        laika
+        name: test
+        code: laika
 env:
   NODE_VERSION: "0.10.11"
   METEOR_VERSION: "0.6.4"
