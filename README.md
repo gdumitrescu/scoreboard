@@ -1,15 +1,9 @@
 ## Meteor Scoreboard example with CoffeeScript, Compass, Bootstrap and Guard gems 
 [![Gitter chat](https://badges.gitter.im/join chat.svg)](https://gitter.im/gdumitrescu/scoreboard)
 
-[![Codeship Status for gdumitrescu/scoreboard](https://www.codeship.io/projects/617dc4f0-d47a-0130-04fb-367a6d09b6f8/status?branch=master)](https://www.codeship.io/projects/5188)
-[![Build Status](https://secure.travis-ci.org/gdumitrescu/scoreboard.png?branch=master)](http://travis-ci.org/gdumitrescu/scoreboard)
-[![Coverage Status](https://coveralls.io/repos/gdumitrescu/scoreboard/badge.png?branch=master)](https://coveralls.io/r/gdumitrescu/scoreboard?branch=master)
-
 [![wercker status](https://app.wercker.com/status/136bc2d730466ac09525a3ddb2e65ed0/m/master "wercker status")](https://app.wercker.com/project/bykey/136bc2d730466ac09525a3ddb2e65ed0)
 
 A port of the [Meteor](http://meteor.com/) framework's [Leaderboard example](http://meteor.com/examples/leaderboard) rewritten using [CoffeeScript](http://coffeescript.org/), [Compass](http://compass-style.org/) and Twitter [Bootstrap](http://twitter.github.com/bootstrap/) and [Guard](https://github.com/guard/guard) gems.
-
-[![Hack gdumitrescu/scoreboard on Nitrous](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-d464cf470a5da050619f6f247a1017ec.png)](https://www.nitrous.io/hack_button?source=embed&runtime=meteor&repo=gdumitrescu%2Fscoreboard)
 
 ### Development
 
