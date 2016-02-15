@@ -9,9 +9,7 @@ build:
     - script:
         name: setup
         code: sudo npm install -g meteorite laika
-    - script:
-        name: test
-        code: laika
+
 env:
   NODE_VERSION: "0.10.11"
   METEOR_VERSION: "0.6.4"
