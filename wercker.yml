@@ -8,7 +8,7 @@ build:
   steps:
     - script:
         name: setup
-        code: npm install -g meteorite laika
+        code: sudo npm install -g meteorite laika
     - script:
         name: test
         code: laika
