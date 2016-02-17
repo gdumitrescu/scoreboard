@@ -1,15 +1,11 @@
-box: oskarszoon/meteor-ci@1.2.1
+box: nodesource/trusty
 services:
-  - wercker/mongodb
-packages:
-  - meteor@0.6.4
-
+  - mongo:3.2.0
 build:
   steps:
     - script:
         name: setup
         code: sudo npm install -g meteorite laika
-
 env:
   NODE_VERSION: "0.10.11"
   METEOR_VERSION: "0.6.4"
